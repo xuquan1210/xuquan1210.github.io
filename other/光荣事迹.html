@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>光荣事迹</title>
+	<style>
+			*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+				cursor: default;
+			}
+			/* main styling*/
+			html,body{
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				line-height: 1.7em;
+				height: 100%;
+				width: 100%;
+				background-size: 100%;
+			}
+			a{
+				color:white;
+				text-decoration: none;
+			}
+			h1,h2,h3,h4,h5,h6{
+				padding-bottom: 20px;
+			}
+			p{
+				margin: 10px 0;				
+			}
+			/* utility classes */
+			.container{
+				margin:0 auto;
+				max-width: 1100px;
+				height: 10vh;
+			}
+			.text-primary{
+				color:#f7c08a;
+			}
+			/* navbar */
+			#navbar{
+				background: #333;
+			}
+			#navbar a{
+				color: #fff;
+			}
+			#navbar h1{
+				float:left;
+			}
+			#navbar ul{
+				float:right;
+				list-style: none;
+			}
+			#navbar ul li{
+				float:left;
+				width: fit-content;
+				margin: 0 10px;
+			}
+			#navbar ul li a{
+				display: block;
+				padding: 20px;
+				text-align: center;
+				transition: 0.2s;	/* 过渡动画效果 */
+				cursor: pointer;
+			}
+			#navbar ul li a:hover,
+			#navbar ul li a.current{
+				background: #444;
+				color: #f7c08a;
+				/* font-size: 20px; */
+				transform: scale(1.2);
+			}
+			#all{width: 1000px;height: 670px;margin: 0 auto;}
+			#left{width: 100px;height: 670px;float: left;}
+			#mid{width: 800px;height: 670px;float: right;}			
+			a:hover{background-color: rgb(68, 68, 68);color: rgb(247, 192, 138);}
+			#bottom{text-align: center;background-color: rgb(191, 215, 209);color: rgb(250, 250, 250);}
+			iframe{border: 0px;}
+		</style>
+	</head>
+	<body background="../image/1.jpg">
+		<nav id="navbar">
+			<div class="container">
+				<h1><a href="../奋斗正青春.html" style="line-height: 10vh;">奋斗正青春</a></h1>
+				<ul>
+					<li><a href="主页.html">主页</a></li>
+					<li><a href="新闻栏目.html">新闻栏目</a></li>
+					<li><a class="current" href="光荣事迹.html">光荣事迹</a></li>
+                    <li><a href="志愿活动.html">志愿活动</a></li>	
+					<li><a href="相关影视.html">相关影视</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div id="all">
+			<div id="left">
+				<p><a href="https://baike.baidu.com/item/%E5%BC%A0%E6%A1%82%E6%A2%85/1152853" target="_main">张桂梅</a></p>
+				<p><a href="https://baike.baidu.com/item/%E8%A2%81%E9%9A%86%E5%B9%B3/43836" target="_main">袁隆平</a></p>
+				<p><a href="https://baike.baidu.com/item/%E9%92%9F%E5%8D%97%E5%B1%B1/653914" target="_main">钟南山</a></p>
+				<p><a href="https://baike.baidu.com/item/%E5%B1%A0%E5%91%A6%E5%91%A6/5567206" target="_main">屠呦呦</a></p>
+				<p><a href="https://baike.baidu.com/item/%E7%A8%8B%E5%BC%80%E7%94%B2/1036567" target="_main">程开甲</a></p>
+				<p><a href="https://search.cctv.com/search.php?qtext=%E6%97%B6%E4%BB%A3%E6%A5%B7%E6%A8%A1&type=web" target="_main">了解更多</a></p>
+			</div>
+			<div id="mid">
+				<iframe name="_main" width="800" height="660"></iframe>
+			</div>
+			</div>
+		</div>
+		<div id="bottom">
+		
+		</div>
+	</body>
+</html>
