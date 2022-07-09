@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>志愿活动</title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+				cursor: default;
+			}
+			/* main styling*/
+			html,body{
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				line-height: 1.7em;
+				height: 100%;
+				width: 100%;
+			}
+			a{
+				color:#333;
+				text-decoration: none;
+			}
+			h1,h2,h3,h4,h5,h6{
+				padding-bottom: 20px;
+			}
+			p{
+				margin: 10px 0;
+			}
+			/* utility classes */
+			.container{
+				margin:0 auto;
+				max-width: 1100px;
+				height: 10vh;
+			}
+			.text-primary{
+				color:#f7c08a;
+			}
+			/* navbar */
+			#navbar{
+				background: #333;
+			}
+			#navbar a{
+				color: #fff;
+			}
+			#navbar h1{
+				float:left;
+			}
+			#navbar ul{
+				float:right;
+				list-style: none;
+			}
+			#navbar ul li{
+				float:left;
+				width: fit-content;
+				margin: 0 10px;
+			}
+			#navbar ul li a{
+				display: block;
+				padding: 20px;
+				text-align: center;
+				transition: 0.2s;	/* 过渡动画效果 */
+				cursor: pointer;
+			}
+			#navbar ul li a:hover,
+			#navbar ul li a.current{
+				background: #444;
+				color: #f7c08a;
+				/* font-size: 20px; */
+				transform: scale(1.2);
+			}
+			#all{width: 1400px;height: 500px;margin: 10px auto;}
+			#left1{width: 24%;height: 500px;float: left;background-color: rgb(132, 51, 144);margin-left: 10px;}
+			#left2{width: 24%;height: 500px;float: left;background-color: #f2be45;margin-left: 10px;}
+			#right1{width: 24%;height: 500px;float: left;background-color: #be002f;margin-left: 10px;}
+			#right2{width: 24%;height: 500px;float: left;background-color: #7397ab;margin-left: 10px;}
+			#left1:hover{box-shadow: 20px 20px 10px 0.3ch gray;}
+			#left2:hover{box-shadow: 20px 20px 10px 0.3ch gray;}
+			#right1:hover{box-shadow: 20px 20px 10px 0.3ch gray;}
+			#right2:hover{box-shadow: 20px 20px 10px 0.3ch gray;}
+			#title{width: 400px;height: 100px;margin: 10px auto;text-align: center;color: white;line-height: 100px;font-size: 30px;font-family: 方正粗黑宋简体;border-radius: 40px;}
+			p{text-align: center;color: white;}
+			#bottom{text-align: center;background-color: rgb(191, 215, 209);color: rgb(250, 250, 250);}
+		</style>
+		<!-- <script>
+			var name=prompt('请输入你的名字');
+			alert(name);
+		</script> -->
+	</head>
+	<body background="../image/19.jpg">
+		<nav id="navbar">
+			<div class="container">
+				<h1><a href="../奋斗正青春.html" style="line-height: 10vh">奋斗正青春</a></h1>
+				<ul>
+					<li><a href="../index.html">主页</a></li>
+					<li><a href="新闻栏目.html">新闻栏目</a></li>
+					<li><a href="光荣事迹.html">光荣事迹</a></li>
+					<li><a class="current" href="志愿活动.html">志愿活动</a></li>	
+					<li><a href="相关影视.html">相关影视</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div id="title"></div>
+		<div id="all">
+			<a href="https://www.tsinghua.edu.cn/info/1183/94653.htm"><div id="left1"><img src="../image/10.jpg" alt="" width="336px" height="230px">
+			<p>初夏时节，万物旺季生长</p>
+			<p>共担风雨，记一抹青春亮色</p>
+			<p>如果这段记忆有颜色</p>
+			<p>那一定是志愿蓝与清华紫！</p>
+			</div></a>
+			<a href="http://www.cq7z.cn/index.php?s=/articles/4624.html"><div id="left2"><img src="../image/12.jpg" alt="" width="336px" height="230px">
+			<p>重庆七中学生舞蹈团受邀参加“共迎未来”迎冬奥倒计时200天活动</p>
+			<p>本次活动以“携手前行·拥抱未来”为主题，旨在搭建中外青少年文化与体育交流展示的平台，传播人文交流理念，促进中外青少年人文交流。</p>
+			</div></a>
+			<a href="https://qnzz.youth.cn/qckc/202205/t20220511_13683098.htm"><div id="right1"><img src="../image/13.jpg" alt=""width="336px" height="230px">
+			<p>庆祝中国共产主义青年团成立100周年大会在京隆重举行  习近平发表重要讲话</p>
+			<p>用青春的能动力和创造力激荡起民族复兴的澎湃春潮  用青春的智慧和汗水打拼出一个更加美好的中国</p>
+			</div></a>
+			<a href="https://news.pku.edu.cn/xwzh/6eff4aa202614f6cb55b138b131e006d.htm"><div id="right2"><img src="../image/11.jpg" alt=""width="336px" height="230px">
+			<p>厚积传薪，共向未来——第十一届新时代中国青年经济论坛在线开幕</p>
+			<p>“风雨经院，弹指百十年；乡土踏遍，先师常念；先生宏愿，我辈担当；开盛世兴我中华当梦圆......忘我，怀初心破风浪；”</p>
+			</div></a>
+		</div>
+		<div id="bottom">
+			
+		</div>
+	</body>
+</html>
