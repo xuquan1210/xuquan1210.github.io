@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>主页</title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+				cursor: default;
+			}
+			/* main styling*/
+			html,body{
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				line-height: 1.7em;
+				height: 100%;
+				width: 100%;
+			}
+			a{
+				color:#333;
+				text-decoration: none;
+			}
+			h1,h2,h3,h4,h5,h6{
+				padding-bottom: 20px;
+			}
+			p{
+				margin: 10px 0;
+			}
+			/* utility classes */
+			.container{
+				margin:0 auto;
+				max-width: 1100px;
+				height: 10vh;
+			}
+            .container1{
+			
+				margin-top:10px;
+				width: 1100px;
+				height: 900px;
+			}
+			.text-primary{
+				color:#f7c08a;
+			}
+			.s1{
+                text-align:center;
+			}
+			.s2{
+				position: absolute;
+				left:300px;
+			}
+			#s3{
+				position: absolute;
+				left:300px;
+			}
+			/* navbar */
+			#navbar{
+				background: #333;
+			}
+			#navbar a{
+				color: #fff;
+			}
+			#navbar h1{
+				float:left;
+			}
+			#navbar ul{
+				float:right;
+				list-style: none;
+			}
+			#navbar ul li{
+				float:left;
+				width: fit-content;
+				margin: 0 10px;
+			}
+			#navbar ul li a{
+				display: block;
+				padding: 20px;
+				text-align: center;
+				transition: 0.2s;	/* 过渡动画效果 */
+				cursor: pointer;
+			}
+			#navbar ul li a:hover,
+			#navbar ul li a.current{
+				background: #444;
+				color: #f7c08a;
+				/* font-size: 20px; */
+				transform: scale(1.2);
+			}
+			#all{width: 1400px;height: 500px;margin: 10px auto;}
+			#left1{width: 24%;height: 500px;float: left;background-color: rgb(132, 51, 144);margin-left: 10px;}
+			#left2{width: 24%;height: 500px;float: left;background-color: #f2be45;margin-left: 10px;}
+			#right1{width: 24%;height: 500px;float: left;background-color: #be002f;margin-left: 10px;}
+			#right2{width: 24%;height: 500px;float: left;background-color: #7397ab;margin-left: 10px;}
+			#left1:hover{box-shadow: 20px 20px 10px 0.3ch gray;}
+			#left2:hover{box-shadow: 20px 20px 10px 0.3ch gray;}
+			#right1:hover{box-shadow: 20px 20px 10px 0.3ch gray;}
+			#right2:hover{box-shadow: 20px 20px 10px 0.3ch gray;}
+			#title{width: 400px;height: 100px;margin: 10px auto;text-align: center;color: white;line-height: 100px;font-size: 30px;font-family: 方正粗黑宋简体;border-radius: 40px;}
+			p{text-align: left;color: black;font-size: 18px;}
+			#bottom{text-align: center;background-color: rgb(191, 215, 209);color: rgb(250, 250, 250);}
+		</style>
+	</head>
+<body>
+    <nav id="navbar">
+        <div class="container">
+            <h1><a href="../奋斗正青春.html" style="line-height: 10vh">奋斗正青春</a></h1>
+            <ul>
+                <li><a class="current" href="index.html">主页</a></li>
+                <li><a href="other/新闻栏目.html">新闻栏目</a></li>
+                <li><a href="other/光荣事迹.html">光荣事迹</a></li>
+                <li><a href="other/志愿活动.html">志愿活动</a></li>	
+                <li><a href="other/相关影视.html">相关影视</a></li>
+            </ul>
+        </div>
+    </nav>
+
+   <div class="container1">
+	   <p style="text-align:center;font-size: 28px;">
+		《通信软件开发与应用》课程结业报告
+	   </p>
+	   <p style="left:300px;position:absolute;">做的什么:关于奋斗正青春主题的网页
+	   </p>
+	   <p style="left:300px;top:150px;position:absolute;width:900px;">开发过程:我先给自己的网页画几个草图，将功能模块画在图上，包括自己需要完成的功能也画在纸上，功能方面呢，我是先通过qige.io学习的，学会简单的运用之后如果在开发过程中遇到我不会的问题，我就百度或者cscn，最后我就完成了这个网站的开发。
+	  </p>
+	  <p style="left:300px;top:250px;position:absolute;width:900px;">
+		遇到的问题：我的第一排就是那个奋斗正青春这排，我花了特别多的时间在图片镶嵌和功能实现上，还有就是为了美化界面，因为我个人很缺乏美感，所以做的界面特别特别丑，中途做的时候也迷茫过，就突然不知道该怎么进行下一步，感觉自己做的网页很完美，但是又感觉不是特别好。
+	  </p>
+	  <p style="left:300px;top:350px;position:absolute;width:900px;">
+		如何解决：在功能实现上，我不会的问题我就cscn或者百度查询，然后再美感不足的问题上，我是通过学习别人的网页，多看了几个别人的作品，然后加以模仿，就学会了如何编写出一个很好看的网页。
+	  </p>
+	  <p style="left:300px;top:420px;position:absolute;width:900px;">
+		哪些未解决:我其实还想做一个关于我们的界面的，但是我JavaScript写的不是很好就没有做，然后我的网页在css方面做的不是很好，就很乱，我的代码很乱没有注释，只有我自己看得懂，隔了一天我可能也看不懂自己的代码了。
+	  </p>
+	  <p style="left:300px;top:500px;position:absolute;width:900px;">
+		总结：中途写代码，我把代码写的太乱了，然后改了一部分，就直接运行不了了，只能重头开始，这让我明白了，写代码一定要写注释，而且要规范，如果很乱的话如果要进行修改花费的精力就会很多，这次网页开发，我也学会了自主学习，跟着视频学习，不懂得就百度，希望以后还能上老师的课，进一步提升自己。
+	  </p>
+   </div>
+	
+        
+        
+</body>
+</html>
